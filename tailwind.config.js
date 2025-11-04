@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        ruda: ['"Ruda"', 'sans-serif'], // ✅ must be inside extend
+      },
+    },
   },
   plugins: [],
 }
