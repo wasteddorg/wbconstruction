@@ -16,7 +16,7 @@ const Navbar = () => {
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
     const closeMenu = () => setIsMenuOpen(false);
 
-    const CALL_NUMBER = "+8801712345678";
+    const CALL_NUMBER = "+880 1704072945";
 
     useEffect(() => {
         const handleScroll = () => {
@@ -121,11 +121,8 @@ const Navbar = () => {
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                     >
-                        <img
-                            src={logoSrc}
-                            alt="Logo"
-                            className="w-[140px] h-[40px] md:w-[150px] md:h-[45px] object-contain transition-all duration-500"
-                        />
+
+                       <img className="w-[100px]" src="https://i.ibb.co.com/9m2HxqJW/WBCC.png" alt="" />
                     </motion.div>
                 </NavLink>
 
@@ -191,7 +188,7 @@ const Navbar = () => {
                             <FiPhoneCall className="w-5 h-5 group-hover:scale-110 transition-transform" />
                             <h1 className="text-lg font-medium tracking-wider cursor-pointer">
 
-                                +017 xxxx xxxxx
+                                +880 1704072945
                             </h1>
                         </a>
 
